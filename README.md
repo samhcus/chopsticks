@@ -1,8 +1,8 @@
-<div align="center">
-  <img src="./icon.png" width="120" height="120" alt="Chopsticks" />
-</div>
+![Chopsticks banner](assets/banner.svg)
 
-# Chopsticks
+<a href="#features"><img src="assets/buttons/btn-features.svg" alt="Features" /></a>&nbsp;<a href="#commands"><img src="assets/buttons/btn-commands.svg" alt="Commands" /></a>&nbsp;<a href="#self-host"><img src="assets/buttons/btn-self-host.svg" alt="Self-host" /></a>&nbsp;<a href="#docker"><img src="assets/buttons/btn-docker.svg" alt="Docker" /></a>
+
+---
 
 **A production-grade, open source Discord bot — music, moderation, economy, AI, and a community-powered agent pool system for voice and assistant workloads at scale.**
 

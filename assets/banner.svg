@@ -1,0 +1,43 @@
+<svg width="900" height="160" viewBox="0 0 900 160" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="dots" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="10" cy="10" r="1.2" fill="#cc2200" opacity="0.13"/>
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="160" fill="#0d0d0d"/>
+
+  <!-- Dot texture, right side -->
+  <rect x="620" y="0" width="280" height="160" fill="url(#dots)"/>
+
+  <!-- Top accent line -->
+  <rect x="0" y="0" width="900" height="2" fill="#cc2200" opacity="0.5"/>
+
+  <!-- Left vertical accent bar -->
+  <rect x="32" y="30" width="3" height="100" rx="1.5" fill="#cc2200"/>
+
+  <!-- Title -->
+  <text
+    x="56"
+    y="74"
+    font-family="Inter, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif"
+    font-size="36"
+    font-weight="700"
+    letter-spacing="-1"
+    fill="#ffffff"
+    text-rendering="geometricPrecision">Mad House</text>
+
+  <text x="56" y="103" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" letter-spacing="1.5" fill="#cc2200" text-rendering="geometricPrecision">Chopsticks</text>
+
+  <!-- Tagline -->
+  <text
+    x="56"
+    y="130"
+    font-family="Inter, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif"
+    font-size="12"
+    font-weight="400"
+    letter-spacing="0.3"
+    fill="#555555"
+    text-rendering="geometricPrecision">fully open-source discord bot</text>
+</svg>

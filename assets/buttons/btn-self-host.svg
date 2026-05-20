@@ -1,0 +1,13 @@
+<svg width="72" height="28" viewBox="0 0 72 28" xmlns="http://www.w3.org/2000/svg">
+  <rect width="72" height="28" rx="6" fill="#cc2200"/>
+  <text
+    x="36"
+    y="18"
+    text-anchor="middle"
+    font-family="Inter, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif"
+    font-size="11"
+    font-weight="600"
+    letter-spacing="0.4"
+    fill="#ffffff"
+    text-rendering="geometricPrecision">Self-host</text>
+</svg>
