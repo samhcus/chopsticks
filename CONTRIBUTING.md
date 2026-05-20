@@ -1,6 +1,6 @@
 # Contributing to Chopsticks
 
-First off — **thank you** for taking the time to contribute! 🎉
+First off - **thank you** for taking the time to contribute! 🎉
 
 Whether you're fixing a bug, adding a feature, improving documentation, or reporting an issue, every contribution makes Chopsticks better for everyone.
 
@@ -78,7 +78,7 @@ npm run bot
    git checkout -b fix/the-bug
    ```
 
-2. **Make your changes** — keep them focused on a single concern.
+2. **Make your changes** - keep them focused on a single concern.
 
 3. **Test your changes:**
    ```bash
@@ -130,12 +130,12 @@ docs: update QUICKSTART for Docker setup
 
 ## Pull Request Guidelines
 
-- **Keep PRs small and focused** — one concern per PR makes review fast
-- **Write a clear description** — explain *what* changed and *why*
-- **Link related issues** — use `Closes #123` in the PR body
-- **Don't reformat unrelated code** — minimizes noise in diffs
-- **All tests must pass** — run `npm test` before submitting
-- **No secrets in code** — use `.env` variables for all credentials
+- **Keep PRs small and focused** - one concern per PR makes review fast
+- **Write a clear description** - explain *what* changed and *why*
+- **Link related issues** - use `Closes #123` in the PR body
+- **Don't reformat unrelated code** - minimizes noise in diffs
+- **All tests must pass** - run `npm test` before submitting
+- **No secrets in code** - use `.env` variables for all credentials
 
 ### PR title format
 
@@ -150,14 +150,14 @@ feat(economy): add /gamble command with server toggle
 
 ### General
 
-- Prefer **explicit, defensive error handling** — wrap DB calls in try/catch
+- Prefer **explicit, defensive error handling** - wrap DB calls in try/catch
 - All slash command handlers must call `deferReply` before any `await` that could take time
-- Never log or display a plaintext bot token — use `maskToken()` for display
+- Never log or display a plaintext bot token - use `maskToken()` for display
 - Keep slash commands backwards compatible unless the change is documented in CHANGELOG
 
 ### Style
 
-- ES Modules (`import`/`export`) throughout — no `require()`
+- ES Modules (`import`/`export`) throughout - no `require()`
 - 2-space indentation
 - Single quotes for strings
 - Trailing commas in multi-line arrays/objects
@@ -165,7 +165,7 @@ feat(economy): add /gamble command with server toggle
 
 ### Slash commands
 
-- Every handler must reply even on error — use the top-level try/catch in `execute()`
+- Every handler must reply even on error - use the top-level try/catch in `execute()`
 - Validate all user input before touching the database
 - Use `flags: MessageFlags.Ephemeral` for sensitive responses
 
@@ -181,7 +181,7 @@ Use [GitHub Issues](https://github.com/madebymadhouse/chopsticks/issues) with th
 - Node.js version, OS, and deployment method (Docker / bare metal)
 - Relevant logs (with secrets removed)
 
-**Do not** open public issues for security vulnerabilities — see [SECURITY.md](SECURITY.md).
+**Do not** open public issues for security vulnerabilities - see [SECURITY.md](SECURITY.md).
 
 ---
 
