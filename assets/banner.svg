@@ -26,9 +26,9 @@
     font-weight="700"
     letter-spacing="-1"
     fill="#ffffff"
-    text-rendering="geometricPrecision">Mad House</text>
+    text-rendering="geometricPrecision">Chopsticks</text>
 
-  <text x="56" y="103" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" letter-spacing="1.5" fill="#cc2200" text-rendering="geometricPrecision">Chopsticks</text>
+  <text x="56" y="103" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="500" letter-spacing="1.5" fill="#cc2200" text-rendering="geometricPrecision">Mad House</text>
 
   <!-- Tagline -->
   <text
@@ -39,5 +39,5 @@
     font-weight="400"
     letter-spacing="0.3"
     fill="#555555"
-    text-rendering="geometricPrecision">fully open-source discord bot</text>
+    text-rendering="geometricPrecision">open-source self-hostable Discord bot</text>
 </svg>
