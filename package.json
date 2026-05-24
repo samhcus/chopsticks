@@ -90,7 +90,7 @@
   },
   "devDependencies": {
     "concurrently": "^9.2.1",
-    "mocha": "^11.7.5"
+    "mocha": "^11.7.6"
   },
   "overrides": {
     "undici": "^6.23.0",
