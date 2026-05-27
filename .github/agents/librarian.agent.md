@@ -48,7 +48,7 @@ Canonical org-wide repair runbook:
 - [ ] Repo lives under `madebymadhouse` org (or an explicitly agreed exception like personal work)
 - [ ] Name is lowercase, hyphen-separated, matches the pattern for its type
 - [ ] Description on GitHub matches the README tagline — same wording, not a different summary
-- [ ] No references to old org paths (e.g., stale `samhcharles/` badge URLs after a transfer)
+- [ ] No references to old org paths (e.g., stale `samhcus/` badge URLs after a transfer)
 
 ### Branding & Wording
 

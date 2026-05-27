@@ -116,7 +116,7 @@ docker ps | grep chopsticks
 
 ### To Deploy Latest Code
 ```bash
-cd /home/user9007/main/samhcharles/work/madhouse/chopsticks
+cd /home/user9007/main/samhcus/work/madhouse/chopsticks
 
 # Rebuild bot with new help system
 docker compose -f docker-compose.production.yml build bot
